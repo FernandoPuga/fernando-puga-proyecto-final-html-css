@@ -1,3 +1,19 @@
 h1 {
-  color: red;
-  background-color: aqua; }
+  color: black;
+  text-align: center;
+  padding: 50px;
+  text-decoration: underline; }
+
+.seccion-index-1 {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 0; }
+
+.seccion-index-2 {
+  max-width: 1000px;
+  margin: auto; }
+
+.seccion-index-3 {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 0; }
