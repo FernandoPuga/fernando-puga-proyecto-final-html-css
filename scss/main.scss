@@ -27,3 +27,44 @@ h1{
  
 
 }
+
+// slider infinito marcas
+
+.marcas{
+    padding: 40px 0;
+}
+.slider {
+    width: 70vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img{
+    height: 80px;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(75px * 18);
+}
+
+.slider .slide {
+    width: 75px;
+}
+
+.slider .slide img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-75px * 9));
+        transform: translateX(calc(-75px * 9));
+    }
+}
