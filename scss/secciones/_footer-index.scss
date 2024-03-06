@@ -1,0 +1,43 @@
+.footer-index{
+    background-color: #ffc107;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+
+    h3{
+        justify-content:center;
+        font-size: 15px;
+        font-weight: bold;
+        padding-top: 30px;
+
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding:0;
+        padding-bottom: 20px;
+    }
+}
+
+.fa-brands{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.redes{
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.titulo-redes{
+    padding-bottom: 20px;
+}

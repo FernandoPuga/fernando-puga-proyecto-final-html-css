@@ -1,70 +1,8 @@
-h1{
-    color: black;
-    text-align: center;
-    padding: 50px;
-    text-decoration: underline;
-}
+// UTILIDADES
+@import "./utilidades/variables";
+@import "./utilidades/reset";
+// SECCIONES
+@import "./secciones/header-index";
+@import "./secciones/main-index";
+@import "./secciones/footer-index";
 
-.seccion-index-1{
-    max-width: 1000px;
-    margin: auto;
-    padding: 30px 0;
-
-}
-
-.seccion-index-2{
-
-    max-width: 1000px;
-    margin: auto;
-
-}
-
-.seccion-index-3{
-    
-    max-width: 1000px;
-    margin: auto;
-    padding: 30px 0;
- 
-
-}
-
-// slider infinito marcas
-
-.marcas{
-    padding: 40px 0;
-}
-.slider {
-    width: 70vw;
-    margin: auto;
-    overflow: hidden;
-}
-
-.slider img{
-    height: 80px;
-}
-
-.slider .slide-track {
-    display: flex;
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
-    width: calc(75px * 18);
-}
-
-.slider .slide {
-    width: 75px;
-}
-
-.slider .slide img {
-    width: 100%;
-}
-
-@keyframes scroll {
-    0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-    100% {
-        -webkit-transform: translateX(calc(-75px * 9));
-        transform: translateX(calc(-75px * 9));
-    }
-}

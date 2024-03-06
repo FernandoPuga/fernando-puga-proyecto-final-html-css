@@ -1,5 +1,11 @@
+/* Reseteo */
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0; }
+
 h1 {
-  color: black;
+  color: rgba(231, 7, 7, 0.658);
   text-align: center;
   padding: 50px;
   text-decoration: underline; }
@@ -48,3 +54,38 @@ h1 {
   100% {
     -webkit-transform: translateX(calc(-75px * 9));
     transform: translateX(calc(-75px * 9)); } }
+
+.footer-index {
+  background-color: #ffc107;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: auto; }
+  .footer-index h3 {
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 30px; }
+  .footer-index a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px; }
+  .footer-index ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px; }
+
+.fa-brands {
+  font-size: 30px;
+  padding-bottom: 10px; }
+
+.redes {
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px; }
+
+.titulo-redes {
+  padding-bottom: 20px; }
