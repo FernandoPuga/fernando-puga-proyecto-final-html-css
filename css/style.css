@@ -115,6 +115,64 @@ h1 {
     background-color: rgba(199, 6, 173, 0.548);
     max-width: auto; }
 
+/* Ayuda */
+.titulo-ayuda h2 {
+  text-align: center;
+  padding: 40px;
+  text-decoration: underline; }
+
+.acordeon {
+  padding: 50px; }
+
+.ancho-acordeon {
+  max-width: 1000px;
+  margin: auto; }
+
+.ancho-consultas {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 30px; }
+
+/* Contacto */
+.formulario {
+  max-width: 800px;
+  margin: 20px; }
+
+.titulo-contacto h1 {
+  text-align: center;
+  margin: auto;
+  padding: 30px; }
+
+.form-control {
+  border: 1px solid #2967a5;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; }
+
+.datos {
+  text-decoration: underline;
+  border: 1px solid black;
+  background-image: linear-gradient(yellow, orange, red);
+  margin: auto;
+  max-width: 500px; }
+
+.imagen-contacto {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  padding-bottom: 40px;
+  padding-top: 40px; }
+
+@media (max-width: 850px) {
+  .imagen-contacto {
+    max-width: 400PX;
+    max-height: 300PX;
+    margin: auto; } }
+
+@media (max-width: 600px) {
+  .slide-track img {
+    max-height: 40px; } }
+
 @media (max-width: 1400px) {
   .seccion-monitor-1 {
     display: flex;

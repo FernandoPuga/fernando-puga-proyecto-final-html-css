@@ -36,30 +36,3 @@
 }
 
 
-@media(max-width:1400px) {
-    .seccion-monitor-1 {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .seccion-monitor-2 {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .seccion-monitor-3 {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-
-
-
-@media(max-width:600px) {
-    .titulo-monitor img {
-
-        height: 250px;
-
-    }
-}

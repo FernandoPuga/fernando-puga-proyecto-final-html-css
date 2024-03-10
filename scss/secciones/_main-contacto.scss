@@ -1,0 +1,35 @@
+/* Contacto */
+.formulario{
+    max-width: 800px;
+    margin: 20px;
+}
+.titulo-contacto h1{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.form-control {
+    border: 1px solid #2967a5;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+
+}
+
+.datos{
+    text-decoration: underline;
+    border: 1px solid black;
+    background-image: linear-gradient(yellow, orange, red);
+    margin: auto;
+    max-width: 500px;
+}
+
+
+.imagen-contacto{
+    width: 800px;
+    height: 500px;
+    margin: auto; 
+    display: flex;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
