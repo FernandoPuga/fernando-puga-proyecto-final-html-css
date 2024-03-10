@@ -37,3 +37,19 @@
 
     }
 }
+
+@media(max-width:1000px){
+
+    .grilla-procesador{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .imagen-vs{
+        margin: 10px;
+        height: 300px;
+
+
+    }
+    
+}
