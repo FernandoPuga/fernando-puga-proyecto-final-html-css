@@ -4,48 +4,23 @@
   margin: 0;
   padding: 0; }
 
-h1 {
-  color: rgba(231, 7, 7, 0.658);
-  text-align: center;
-  padding: 50px;
-  text-decoration: underline; }
-
-.seccion-index-1 {
-  max-width: 1000px;
-  margin: auto;
-  padding: 30px 0; }
-
-.seccion-index-2 {
-  max-width: 1000px;
-  margin: auto; }
-
-.seccion-index-3 {
-  max-width: 1000px;
-  margin: auto;
-  padding: 30px 0; }
-
 .marcas {
   padding: 40px 0; }
-
-.slider {
-  width: 70vw;
-  margin: auto;
-  overflow: hidden; }
-
-.slider img {
-  height: 80px; }
-
-.slider .slide-track {
-  display: flex;
-  animation: scroll 40s linear infinite;
-  -webkit-animation: scroll 40s linear infinite;
-  width: calc(75px * 18); }
-
-.slider .slide {
-  width: 75px; }
-
-.slider .slide img {
-  width: 100%; }
+  .marcas .slider {
+    width: 70vw;
+    margin: auto;
+    overflow: hidden; }
+    .marcas .slider img {
+      height: 80px; }
+  .marcas .slider .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(75px * 18); }
+  .marcas .slider .slide {
+    width: 75px; }
+    .marcas .slider .slide img {
+      width: 100%; }
 
 @keyframes scroll {
   0% {
@@ -54,6 +29,44 @@ h1 {
   100% {
     -webkit-transform: translateX(calc(-75px * 9));
     transform: translateX(calc(-75px * 9)); } }
+
+.titulo, .main-index h1, .main-procesadores h1, .main-monitores h1, .main-ayuda h1, .main-contacto h1 {
+  color: rgba(231, 7, 7, 0.658);
+  text-align: center;
+  padding: 50px;
+  text-decoration: underline; }
+
+.nav-item a {
+  text-decoration: underline; }
+  .nav-item a:hover {
+    background-color: #b9f1ca; }
+
+.main-index .seccion-index-1 {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 0; }
+
+.main-index .seccion-index-2 {
+  max-width: 1000px;
+  margin: auto; }
+
+.main-index .seccion-index-3 {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 0; }
+
+.main-index .video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap; }
+  .main-index .video h2 {
+    padding: 20px;
+    text-decoration: underline; }
+  .main-index .video iframe {
+    width: 700px;
+    height: 400px;
+    padding-bottom: 30px; }
 
 .footer-index {
   background-color: #ffc107;
@@ -90,11 +103,11 @@ h1 {
 .titulo-redes {
   padding-bottom: 20px; }
 
-.imagen-vs {
+.main-procesadores .imagen-vs {
   display: flex;
   justify-content: space-around; }
 
-.grilla-procesador {
+.main-procesadores .grilla-procesador {
   display: grid;
   margin: auto;
   grid-template-columns: repeat(3, 1fr);
@@ -103,75 +116,83 @@ h1 {
   padding-top: 70px;
   padding-bottom: 40px; }
 
-.grilla-procesador img {
+.main-procesadores .grilla-procesador img {
   width: 300px; }
 
-.seccion-monitor-1 {
+.main-procesadores .texto-procesador {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border: 1px solid black;
+  background-image: linear-gradient(yellow, orange, red); }
+  .main-procesadores .texto-procesador p {
+    margin: 10px; }
+
+.main-monitores .seccion-monitor-1 {
   display: flex;
   padding: 30px;
   width: 100%;
   margin: auto; }
 
-.seccion-monitor-2 {
+.main-monitores .seccion-monitor-2 {
   display: flex;
   padding: 30px; }
 
-.seccion-monitor-3 {
+.main-monitores .seccion-monitor-3 {
   display: flex;
   padding: 30px; }
 
-.titulo-monitor img {
+.main-monitores .titulo-monitor img {
   width: 100%;
-  padding-bottom: 100px; }
+  padding-bottom: 50px; }
 
-.seccion-monitores {
+.main-monitores .seccion-monitores {
   padding: 70px, 0px, 0px, 0px; }
-  .seccion-monitores h2 {
+  .main-monitores .seccion-monitores h2 {
     text-align: center;
     background-color: rgba(199, 6, 173, 0.548);
     max-width: auto; }
 
-/* Ayuda */
-.titulo-ayuda h2 {
-  text-align: center;
-  padding: 40px;
-  text-decoration: underline; }
-
-.acordeon {
-  padding: 50px; }
-
-.ancho-acordeon {
-  max-width: 1000px;
+.main-ayuda {
   margin: auto; }
+  .main-ayuda .titulo-ayuda h2 {
+    text-align: center;
+    padding: 40px;
+    text-decoration: underline; }
+  .main-ayuda .acordeon {
+    padding: 50px; }
+  .main-ayuda .ancho-acordeon {
+    max-width: 1000px;
+    margin: auto; }
+  .main-ayuda .ancho-consultas {
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px; }
 
-.ancho-consultas {
-  max-width: 800px;
-  margin: auto;
-  padding-bottom: 30px; }
-
-/* Contacto */
-.formulario {
+/* CONTACTO */
+.main-contacto .formulario {
   max-width: 800px;
   margin: 20px; }
 
-.titulo-contacto h1 {
-  text-align: center;
-  margin: auto;
-  padding: 30px; }
-
-.form-control {
+.main-contacto .form-control {
   border: 1px solid #2967a5;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; }
 
-.datos {
+.main-contacto .datos {
   text-decoration: underline;
   border: 1px solid black;
   background-image: linear-gradient(yellow, orange, red);
   margin: auto;
   max-width: 500px; }
 
-.imagen-contacto {
+.main-contacto .imagen-contacto {
   width: 800px;
   height: 500px;
   margin: auto;
@@ -183,11 +204,21 @@ h1 {
   .imagen-contacto {
     max-width: 400PX;
     max-height: 300PX;
-    margin: auto; } }
+    margin: auto; }
+  .ancho-consultas {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .video iframe {
+    max-width: 350px; } }
 
 @media (max-width: 600px) {
   .slide-track img {
-    max-height: 40px; } }
+    max-height: 40px; }
+  .main-monitores h1 {
+    padding-bottom: 5px; }
+  .titulo-monitor img {
+    min-height: 250px; } }
 
 @media (max-width: 1400px) {
   .seccion-monitor-1 {
@@ -200,12 +231,8 @@ h1 {
     display: flex;
     flex-wrap: wrap; } }
 
-@media (max-width: 600px) {
-  .titulo-monitor img {
-    height: 250px; } }
-
 @media (max-width: 1000px) {
-  .grilla-procesador {
+  .main-procesadores .grilla-procesador {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; }

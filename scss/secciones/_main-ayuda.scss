@@ -1,21 +1,31 @@
-/* Ayuda */
-.titulo-ayuda h2 {
-    text-align: center;
-    padding: 40px;
-    text-decoration: underline;
-}
-
-.acordeon {
-    padding: 50px;
-}
-
-.ancho-acordeon {
-    max-width: 1000px;
+// AYUDA
+.main-ayuda {
     margin: auto;
-}
+    h1{
+        @extend .titulo;
+    }
 
-.ancho-consultas {
-    max-width: 800px;
-    margin: auto;
-    padding-bottom: 30px;
+    .titulo-ayuda {
+        h2 {
+            text-align: center;
+            padding: 40px;
+            text-decoration: underline;
+        }
+    }
+
+    .acordeon {
+        padding: 50px;
+    }
+
+    .ancho-acordeon {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .ancho-consultas {
+        max-width: 800px;
+        margin: auto;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
 }

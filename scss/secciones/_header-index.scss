@@ -1,0 +1,11 @@
+// INDEX
+
+.nav-item{
+    a{
+        &:hover{
+            background-color: rgb(185, 241, 202)
+        }
+        text-decoration: underline
+    }
+    
+}
